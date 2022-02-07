@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_covid_app">#262A53</color>
+    <color name="bg_papan_covid">#59BDAF</color>
+    <color name="merah">#E62129</color>
+    <color name="ijo">#189803</color>
+    <color name="angka">#646764</color>
+    <color name="kuning">#FFC90B</color>
+</resources>

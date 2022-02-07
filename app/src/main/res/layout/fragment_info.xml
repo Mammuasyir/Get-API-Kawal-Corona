@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InfoFragment"
+    android:background="@color/primary_covid_app">
+
+    <ScrollView
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="360dp"
+                android:layout_height="277.59dp"
+                android:background="@drawable/mainbg"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="42dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--        <androidx.cardview.widget.CardView-->
+            <!--            app:cardBackgroundColor="@color/bg_papan"-->
+            <!--            android:layout_width="340dp"-->
+            <!--            android:layout_height="55dp"-->
+            <!--            android:layout_marginTop="-12dp"-->
+            <!--            android:layout_marginHorizontal="1dp"-->
+            <!--            app:cardCornerRadius="10dp"-->
+            <!--            app:cardElevation="30dp">-->
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center_vertical"-->
+            <!--                android:orientation="horizontal">-->
+
+            <!--                <ImageView-->
+            <!--                    android:layout_marginLeft="48dp"-->
+            <!--                    android:layout_width="17dp"-->
+            <!--                    android:layout_height="22dp"-->
+            <!--                    android:src="@drawable/list"/>-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_marginLeft="25dp"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="Data Covid-19 Per Provinsi"-->
+            <!--                    android:textStyle="bold"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textSize="16sp"/>-->
+
+            <!--            </LinearLayout>-->
+
+            <!--        </androidx.cardview.widget.CardView>-->
+
+            <ImageView
+                android:layout_marginTop="-17dp"
+                android:layout_width="340dp"
+                android:layout_height="260dp"
+                android:src="@drawable/info"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/backtop"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/philosopher_bold"
+            android:text="Info Aplikasi"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
